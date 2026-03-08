@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "newara"
+version = "0.0.1"
+description = "Newara Frappe App"
+authors = [
+    { name = "ERP Gulf", email = "support@ERPGulf.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["newara*"]
